@@ -1,8 +1,5 @@
-#include "PrintHello.hpp"
-
 #include <iostream>
-
 void printHello()
 {
-    std::puts("Hello, World!");
+    std::cout << "Hello, World!" << std::endl;
 }
